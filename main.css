@@ -1,5 +1,5 @@
-
-.flex-container a {
+.class1
+.flex-container {
   display: flex;
   justify-content: flex-end;
   flex-wrap: nowrap;
@@ -16,8 +16,8 @@
 }
 
 
-
-.flex-container b {
+.class2
+.flex-container {
   display: flex;
   justify-content: flex-end;
   flex-wrap: nowrap;
