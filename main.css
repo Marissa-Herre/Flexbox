@@ -1,12 +1,12 @@
 .class1
-.flex-container {
+{
   display: flex;
   justify-content: flex-end;
   flex-wrap: nowrap;
   background-color: pink;
 }
 
-.flex-container > div {
+.class1> div {
   background-color: lightblue;
   width: 100px;
   margin: 10px;
@@ -16,15 +16,14 @@
 }
 
 
-.class2
-.flex-container {
+.class2 {
   display: flex;
   justify-content: flex-end;
   flex-wrap: nowrap;
   background-color: pink;
 }
 
-.flex-container > div {
+.class2 > div {
   background-color: lightblue;
   width: 400px;
   margin: 10px;
