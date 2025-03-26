@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="main.css">
+<style>
+.flex-container1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  background-color: pink;
+}
+
+.flex-container1 > div {
+  background-color: lightblue;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+
+.flex-container2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  background-color: pink;
+}
+.flex-container2 > div {
+  background-color: lightblue;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 20px;
+}
+</style>
+
+
 </head>
 <body>
 
 <h1>Flexible Boxes</h1>
 
-<div class="class1"></div>
-
+<div class="flex-container1">
   <div>1</div>
   <div>2</div>
   <div>3</div>  
@@ -18,13 +51,11 @@
 <p>Try to resize the browser window.</p>
 <p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
 
-<div class="class2"></div>
-
+<div class="flex-container2">
   <div>1</div>
   <div>2</div>
   <div>3</div>  
  
 </div>
-
 </body>
 </html>
