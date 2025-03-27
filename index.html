@@ -71,7 +71,7 @@
 
   .toggler { width: 500px; height: 200px; position: relative; }
   #button { padding: .5em 1em; text-decoration: none; }
-  #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+  #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: lightblue; }
   #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
 </style>
 
@@ -83,7 +83,7 @@ $( function() {
   $( "#button" ).on( "click", function() {
     if ( state ) {
       $( "#effect" ).animate({
-        backgroundColor: "#aa0000",
+        backgroundColor: "pink",
         color: "#fff",
         width: 500
       }, 1000 );
@@ -99,13 +99,11 @@ $( function() {
 } );
 </script>
 
-
-
 </head>
 
 <body>
 
-  
+
 <h1>Flexible Boxes</h1>
 
 <div class="flex-container1">
@@ -128,9 +126,8 @@ $( function() {
       <div>3</div>  </div>  
  
 </div>
+</div>
 
-
-<p> give it some space</p>
 
 <div class="toggler">
   <div id="effect" class="ui-widget-content ui-corner-all">
@@ -143,6 +140,6 @@ $( function() {
  
 <button id="button" class="ui-state-default ui-corner-all">Click me!</button>
 
-
+</div>
 </body>
 </html>
